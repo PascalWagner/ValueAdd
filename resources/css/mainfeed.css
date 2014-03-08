@@ -1,0 +1,222 @@
+/* 
+    Document   : mainfeed
+    Created on : Mar 5, 2014, 10:45:15 PM
+    Author     : info
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+    
+}
+
+#typography {
+    margin-top: 50px;
+}
+
+.box {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #DEE2EC;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    width: 320px;
+}
+
+.profilebox {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #DEE2EC;
+    margin-bottom: 10px;
+    padding-left: 5%;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    width: 320px;
+}
+
+
+.leftcolumn {
+    width: 320px;
+    float: left;
+    margin-left: 100px;
+    
+}
+
+.goalactionbar {
+    padding-right: 20px;
+    margin-top: 5px;
+    margin-left: 450px;
+    margin-bottom: -20px;
+}
+
+.rightcolumn {
+    margin-left: 440px;
+    width: 660px;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+.goalpicture {
+    width: 48px;
+    height: 48px;
+}
+
+.goalname {
+    margin-left: 56px;
+    margin-top: -52px;
+}
+
+.goaltext {
+    margin-left:56px;
+}
+
+.goalhr {
+    margin-top: 30px;
+}
+
+
+
+
+body {
+    background-color: #F0F1F6;
+}
+
+.profilethumbnail {
+    margin: 0px;
+    padding: 4px;
+    line-height: 1.428571429;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+}
+
+.submitgoalbox {
+    padding: 12px;
+    height: 210px;  
+    background-color: #FFFFFF;  
+}
+
+.submitgoaltextarea {
+    width: 295px;
+    height: 110px;
+    border-radius: 6px;
+}
+
+.submitgoaltextline {
+    width: 294px;
+    margin-bottom: 0px;
+    background-color: #F0F1F6;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: #DEE2EC;
+    resize: none;
+
+}
+
+.submitgoalboxactions {
+    float: right;
+    margin-top: 40px;
+}
+.profilepicture {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #DEE2EC;
+    border-radius: 100px;
+    height: 160px;
+    width: 160px;
+    margin-left: 70px;
+    margin-top: 25px;
+}
+
+.profilename {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.goalheader {
+    margin-top: -5px;
+    margin-bottom: -10px;
+}
+
+/*REGISTER PAGE*/
+.centerregistration {
+    width: 900px;
+    height: 350px;
+    margin-left: 150px;
+    margin-top: 150px;
+}
+
+.registrationleftcolumn {
+    width: 550px;
+    height: 400px;
+}
+
+.registrationleftcolumn {
+    padding: 30px;
+}
+
+
+.registrationrightcolumn {
+    width: 350px;
+    height: 400px;
+    margin-left: 570px;
+    margin-top: -400px;
+}
+
+.signinbox {
+    width: 350px;
+    height: 140px;
+    padding: 20px;
+}
+
+.registerbox {
+    margin-top: 20px;
+    width: 350px;
+    height: 240px;
+    padding-left: 20px;
+}
+ 
+
+.signinbutton {
+    float: right;
+    margin-right: 10px;
+    margin-top: -38px;
+}
+
+.remembermeandsignin {
+    margin-top: 12px;
+}
+
+.rememberme {
+    margin-bottom: -25px;
+    margin-top: 5px;
+}
+
+.forgotpass {
+    margin-top: 5px;
+    float: right;
+}
+
+.signinoptinboxemail {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.signinoptinboxpass {
+    width: 220px;
+}
+
+.signupbutton {
+    float: right;
+    margin-right: 28px;
+}
+
+
+/* Nav Bar */
+.settings {
+    margin-left: 715px;
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+
