@@ -3,7 +3,7 @@
 class RegisterController extends MY_Controller {
 	
 	public function index($renderData=""){	
-ini_set('display_errors',"1");
+
 		$this->title = "Needzilla";
 		$this->keywords = "Needzilla";
        

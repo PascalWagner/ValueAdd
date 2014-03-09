@@ -2681,12 +2681,12 @@ button.close {
 }
 
 .navbar-nav > li > a {
-  padding-top: 20px;
-  padding-bottom: 15px;
-  padding-right: 70px;
-  line-height: 20px;
-  color: #FFFFFF;
-  border-radius: 4px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-right: 50px;
+    line-height: 20px;
+    color: #FFFFFF;
+    letter-spacing: 1.5px;
 }
 
 .navbar-nav > li > a:hover,
