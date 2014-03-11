@@ -1,5 +1,4 @@
-Deny from all
-RewriteEngine on
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule .* index.php/$0 [PT,L] 
+
+
+RewriteRule ^(images)(.*)/$ 404 [L] #deny images listing because we have allowed access to images below
+RewriteRule ^(images)/(.*) $1/$2 [L]

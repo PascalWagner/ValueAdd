@@ -66,7 +66,7 @@ class MY_Controller extends CI_Controller{
 		
 		$toBody["header"] = $this->load->view("template/header",$toHeader,true);
 		$toBody["footer"] = $this->load->view("template/footer",'',true);
-		
+		    
 		$toTpl["body"] = $this->load->view("template/".$this->template,$toBody,true);
 		
 		

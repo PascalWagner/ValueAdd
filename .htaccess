@@ -3,5 +3,10 @@ AddDefaultCharset UTF-8
     RewriteEngine On
     RewriteRule ^(resources)/(.*) $1/$2 [L]
     RewriteRule ^(user_guide)/(.*) $1/$2 [L]
+
+
+    RewriteRule ^(images)(.*)/$ 404 [L] #deny images listing because we have allowed access to images below
+    RewriteRule ^(images)/(.*) $1/$2 [L]
+
     RewriteRule (.*) index.php?$1 [L]
 </IfModule>
