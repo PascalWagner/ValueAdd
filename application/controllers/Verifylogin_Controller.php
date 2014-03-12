@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class VerifyLogin extends CI_Controller {
+class Verifylogin_Controller extends CI_Controller {
 
  function __construct()
  {
@@ -19,7 +19,8 @@ class VerifyLogin extends CI_Controller {
    if($this->form_validation->run() == FALSE)
    {
      //Field validation failed.  User redirected to login page
-     $this->load->view('pages/login_view');
+     //$this->load->view('pages/login_view');
+     redirect('Login_Controller', 'refresh');
    }
    else
    {

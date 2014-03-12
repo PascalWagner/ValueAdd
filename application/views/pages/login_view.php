@@ -1,5 +1,5 @@
-<?php echo validation_errors(); ?>
-   <?php echo form_open('verifylogin'); ?>
+<?php // echo validation_errors(); ?>
+   <?php echo form_open('Verifylogin_Controller'); ?>
 <div class="container">
 
 	<section id="typography"> 

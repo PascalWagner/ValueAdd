@@ -6,7 +6,7 @@
                             <img class="profilepicture" src="https://pbs.twimg.com/profile_images/428630642579243008/M-EHHjhd.jpeg" ></img>
                             <h3 class="profilename"><?php echo $username['username']; ?>
                             </h3>
-                            <a href="home/logout">Logout</a>
+                            <a href="Logout_Controller/logout">Logout</a>
                                 
 
                         </div>
