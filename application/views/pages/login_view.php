@@ -10,7 +10,7 @@
                 </div>             
                 <div class="registrationrightcolumn">
                     <div class="signinbox box">
-                        <form id='login' method='post' accept-charset='UTF-8' action="index.php/HomeController/index" class="form-horizontal">                            
+                        <form id='login' method='post' accept-charset='UTF-8' action="index.php/Home_Controller/index" class="form-horizontal">                            
                             <!--action=""-->
                             <input type='hidden' name='submitted' id='submitted' value='1'/>
                           <div class="control-group">
@@ -41,7 +41,7 @@
                     </div>
                     <div class="registerbox box">
                         <h3>New to Needzilla? Sign up!</h3>
-                        <form action="index.php/HomeController/index" class="form-horizontal">
+                        <form action="index.php/Home_Controller/index" class="form-horizontal">
                           <div class="control-group">
                             <div class="controls">
                               <input type="text" id="inputFullname" class="signinoptinboxemail" placeholder="Full name">

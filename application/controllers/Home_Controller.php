@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class HomeController extends MY_Controller {
+class Home_Controller extends MY_Controller {
         
         public function index($renderData=""){	
                 
@@ -8,14 +8,14 @@ class HomeController extends MY_Controller {
            {
                  $session_data = $this->session->userdata('logged_in');
                  $renderData['username'] = $session_data['username'];                
-                 $this->_render('pages/home',$renderData);
+                 $this->_render('pages/home_view',$renderData);
                  
                       
            }
            else
            {
              //If no session, redirect to login page
-             redirect('LoginController', 'refresh');
+             redirect('Login_Controller', 'refresh');
            }               
 	}   
         
