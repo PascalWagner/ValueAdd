@@ -11,18 +11,15 @@
                 <div class="registrationrightcolumn">
                     <div class="signinbox box">
                         <form id='login' method='post' accept-charset='UTF-8' action="index.php/Home_Controller/index" class="form-horizontal">                            
-                            <!--action=""-->
                             <input type='hidden' name='submitted' id='submitted' value='1'/>
                           <div class="control-group">
                             <div class="controls">
-                              <!--<input type="text" id="email" class="signinoptinboxemail" placeholder="Email">-->
-                              <input type="text" size="20" id="email" name="email"/>
+                              <input type="text" size="20" class="signinoptinboxemail" id="email" name="email" placeholder="Email" />
                             </div>
                           </div>
                           <div class="control-group">
                             <div class="controls">
-                              <!--<input type="password" id="password" class="signinoptinboxpass" placeholder="Password">-->
-                              <input type="password" size="20" id="passowrd" name="password"/>
+                              <input type="password" size="20" id="passowrd" name="password" class="signinoptinboxpass" placeholder="Password"/>
                             </div>
                           </div>
                             <div class="remembermeandsignin">  
@@ -31,8 +28,7 @@
                                       <label class="checkbox rememberme">
                                         <input type="checkbox"> Remember me
                                       </label>
-                                        <!--<input type='submit' class="btn signinbutton" name='Signin' value='Signin' />-->
-                                        <input type="submit" value="Login"/>
+                                        <input class="btn signinbutton" type="submit" value="Login"/>
                                         <p class="forgotpass">Forgot your password?</p>
                                     </div>
                                   </div>
@@ -49,20 +45,17 @@
                           </div>
                             <div class="control-group">
                             <div class="controls">
-                              <!--<input type="text" id="inputEmail" class="signinoptinboxemail" placeholder="Email">-->
-                                 <input type="text" size="20" id="username" name="username"/>
+                                 <input type="text" size="20" id="email" name="email"class=" signinoptinboxemail" placeholder="Email"/>
                             </div>
                           </div>
                           <div class="control-group">
                             <div class="controls">
-                              <!--<input type="password" id="inputPassword" class="signinoptinboxemail" placeholder="Password">-->
-                              <input type="password" size="20" id="passowrd" name="password"/>
+                              <input type="password" size="20" id="passowrd" name="password" class="signinoptinboxemail" placeholder="Password"/>
                             </div>
                           </div>
                           <div class="control-group">
                             <div class="controls">
-                              <!--<button type="submit" class="btn signupbutton" action="home.php">Sign up for Needzilla</button>-->
-                              <input type="submit" value="Login"/>
+                              <input type="submit" value="Login" class="btn signupbutton"/>
                             </div>
                           </div>
                         </form>
