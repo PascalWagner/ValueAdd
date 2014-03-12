@@ -7,7 +7,7 @@ class Settings_Controller extends MY_Controller {
            if($this->session->userdata('logged_in'))
            {
                  $session_data = $this->session->userdata('logged_in');
-                 $renderData['username'] = $session_data['username'];                
+                 $renderData['full_name'] = $session_data['full_name']; //added
                  $this->_render('pages/settings_view',$renderData);
                  
                       

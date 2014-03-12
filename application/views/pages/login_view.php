@@ -16,7 +16,7 @@
                           <div class="control-group">
                             <div class="controls">
                               <!--<input type="text" id="email" class="signinoptinboxemail" placeholder="Email">-->
-                              <input type="text" size="20" id="username" name="username"/>
+                              <input type="text" size="20" id="email" name="email"/>
                             </div>
                           </div>
                           <div class="control-group">
