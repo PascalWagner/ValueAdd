@@ -4,11 +4,7 @@
                     <div class="leftcolumn" >
                         <div class="profilebox">
                             <img class="profilepicture" src="https://pbs.twimg.com/profile_images/428630642579243008/M-EHHjhd.jpeg" ></img>
-                            <h3 class="profilename"><?php echo $username['username']; ?>
-                            </h3>
-                            
-                                
-
+                            <h3 class="profilename"><?php echo $full_name['full_name']; ?>
                         </div>
                         
                         <div class="submitgoalbox box">

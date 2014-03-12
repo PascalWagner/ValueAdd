@@ -59,6 +59,8 @@ class MY_Controller extends CI_Controller{
                 else {
                     
                     $toTpl["username"] = $renderData;
+                    $toTpl["full_name"] = $renderData; //added
+                    
                 }
           
 
