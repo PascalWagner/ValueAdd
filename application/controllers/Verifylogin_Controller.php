@@ -5,7 +5,9 @@ class Verifylogin_Controller extends CI_Controller {
  function __construct()
  {
    parent::__construct();
-   $this->load->model('user','',TRUE);
+//$this->load->model('user','',TRUE);
+   
+   $this->load->model('user_model','',TRUE);
  }
 
  function index()
@@ -19,7 +21,6 @@ class Verifylogin_Controller extends CI_Controller {
    if($this->form_validation->run() == FALSE)
    {
      //Field validation failed.  User redirected to login page
-     //$this->load->view('pages/login_view');
      redirect('Login_Controller', 'refresh');
    }
    else
@@ -37,8 +38,8 @@ class Verifylogin_Controller extends CI_Controller {
    $username = $this->input->post('username');
 
    //query the database
-   $result = $this->user->login($username, $password);
-
+   $result = $this->user_model->login($username, $password);
+    
    if($result)
    {
      $sess_array = array();
