@@ -2691,7 +2691,7 @@ button.close {
 
 .navbar-nav > li > a:hover,
 .navbar-nav > li > a:focus {
-  color: #333333;
+  /*color: #333333;*/
   background-color: transparent;
 }
 
@@ -2931,8 +2931,9 @@ button.close {
   }
   .navbar-nav {
     float: left;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: -15px;
+    margin-bottom: -5px;
+    margin-left: 90px;  
   }
   .navbar-nav > li {
     float: left;
