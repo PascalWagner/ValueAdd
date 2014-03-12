@@ -6,7 +6,6 @@
                             <img class="profilepicture" src="https://pbs.twimg.com/profile_images/428630642579243008/M-EHHjhd.jpeg" ></img>
                             <h3 class="profilename"><?php echo $username['username']; ?>
                             </h3>
-                            
                                 
 
                         </div>
@@ -25,7 +24,7 @@
                     
                     <div class="rightcolumn box">
                         <div>
-                            <h3 class="goalheader">Goals</h3>
+                            <h3 class="goalheader">My Goals</h3>
                             <hr>
                         </div>
                           <?php
