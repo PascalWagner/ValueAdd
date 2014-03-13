@@ -8,9 +8,7 @@ class Home_Controller extends MY_Controller {
            {
                  $session_data = $this->session->userdata('logged_in');
                  $renderData['full_name'] = $session_data['full_name']; //added
-                 $this->_render('pages/home_view',$renderData);
-                 
-                      
+                 $this->_render('pages/home_view',$renderData);                                      
            }
            else
            {

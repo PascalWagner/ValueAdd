@@ -1,5 +1,6 @@
-<?php // echo validation_errors(); ?>
+<?php  echo validation_errors(); ?>
    <?php echo form_open('Verifylogin_Controller'); ?>
+   
 <div class="container">
 
 	<section id="typography"> 
@@ -35,22 +36,24 @@
                             </div>
                         </form>
                     </div>
+                     <?php echo form_close(); ?>
+                    <?php echo form_open('Register_Controller/registration'); ?>
                     <div class="registerbox box">
                         <h3>New to Needzilla? Sign up!</h3>
-                        <form action="index.php/Home_Controller/index" class="form-horizontal">
+                        <form action="index.php/Register_Controller/registration" class="form-horizontal">
                           <div class="control-group">
                             <div class="controls">
-                              <input type="text" id="inputFullname" class="signinoptinboxemail" placeholder="Full name">
+                              <input type="text" id="inputFullname" name="full_name" class="signinoptinboxemail" placeholder="Full name" value='<?php echo set_value('full_name'); ?>' />
                             </div>
                           </div>
                             <div class="control-group">
                             <div class="controls">
-                                 <input type="text" size="20" id="email" name="email"class=" signinoptinboxemail" placeholder="Email"/>
+                                 <input type="text" size="20" id="email" name="email" class="signinoptinboxemail" placeholder="Email" value='<?php echo set_value('email'); ?>'/>
                             </div>
                           </div>
                           <div class="control-group">
                             <div class="controls">
-                              <input type="password" size="20" id="passowrd" name="password" class="signinoptinboxemail" placeholder="Password"/>
+                              <input type="password" size="20" id="password" name="password" class="signinoptinboxemail" placeholder="Password" value='<?php echo set_value('password'); ?>' />
                             </div>
                           </div>
                           <div class="control-group">
@@ -61,6 +64,7 @@
                         </form>
                        
                     </div>
+                     <?php echo form_close(); ?>
                 </div>
             </div>
         </section>

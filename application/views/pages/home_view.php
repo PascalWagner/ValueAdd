@@ -6,7 +6,30 @@
                             <img class="profilepicture" src="https://pbs.twimg.com/profile_images/428630642579243008/M-EHHjhd.jpeg" ></img>
                             <h3 class="profilename"><?php echo $full_name['full_name']; ?>
                         </div>
-                        
+                        <!--- OLD CODE-->
+                        <?php echo form_open('Verifylogin_Controller'); ?>
+                         <div class="submitgoalbox box">
+                             <form method='post' accept-charset='UTF-8' action="Feed_Controller/submitGoal" >
+                                 <input type='hidden' name='submitted' id='submitted' value='1'/>
+                            <div class="submitgoaltextarea">
+                                
+                                <p>My goal is...
+                                     <input class="submitgoaltextline" type="goal" size="20"  name="goal" rows="2" wrap="soft" maxlength="80"/>
+                                </p>
+                                <p>I need...
+                                    <input class="submitgoaltextline" type="need" size="20"  name="need" rows="2" wrap="soft" maxlength="80"/>
+                                </p>
+                            </div> 
+                                           
+                            <div class="submitgoalboxactions">
+                                <input class="btn btn-success" type="submit" value="Submit"/>
+                            </div>
+                         </form>
+                        </div>
+                             <?php echo form_close(); ?>
+                             
+                             <!-- OLD Code -->
+                             <!-- Standard Code 
                         <div class="submitgoalbox box">
                             <div class="submitgoaltextarea">
                                 <p>My goal is...<textarea class="submitgoaltextline"  rows="2" wrap="soft" maxlength="80"></textarea></p>
@@ -17,6 +40,8 @@
                                 <button class="btn btn-success">Submit</button>
                             </div>
                         </div>
+                             
+                              Standard Code -->
                     </div>
                     
                     <div class="rightcolumn box">

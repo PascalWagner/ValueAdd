@@ -1,7 +1,7 @@
 <?php
-Class User_Model extends CI_Model
+Class Feed_Model extends CI_Model
 {
- function login($email, $password)
+ function submit($goal, $need)
  {
    $this -> db -> select('user_id, email, password, full_name');
    $this -> db -> from('users');
@@ -21,16 +21,7 @@ Class User_Model extends CI_Model
    }
  }
 
- public function add_user()
- {
-  $data=array(
-    'full_name'=>$this->input->post('full_name'),
-    'email'=>$this->input->post('email'),
-    'password'=>md5($this->input->post('password'))
-  );
-  $this->db->insert('users',$data);
-
- }
+ 
 
 }
 ?>
